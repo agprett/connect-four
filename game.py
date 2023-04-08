@@ -6,7 +6,6 @@ class Game:
   def displayBoard(self, walls, columns):
     #this takes in the walls to display, then columns to show where is open and what has been played
     viewedColumns = {}
-    print('')
     print('  1   2   3   4   5   6   7')
 
     for column in columns:
